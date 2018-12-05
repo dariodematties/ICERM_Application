@@ -1,0 +1,428 @@
+% Source: http://tex.stackexchange.com/a/150903/23931
+\documentclass{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{bibentry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+  \footnotesize\sffamily
+  \yourname\quad
+  \jobtitle\quad
+  \institution\quad}
+  %web: \textcolor{blue}{\itshape\yourweb}\quad
+  %\textcolor{blue}{\youremail}}
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.3ex}{\bf +}\nolinebreak\hspace{-.10em}\raisebox{.3ex}{\bf +}}
+\newcommand{\soptitle}{Scientific Machine Learning Jan 28 - 30, 2019-Curriculum Vitae}
+\newcommand{\yourname}{Dario Dematties}
+%\newcommand{\youremail}{dariodematties@yahoo.com.ar}
+\newcommand{\jobtitle}{Ph.D. candidate}
+\newcommand{\institution}{Faculty of Engineering, University of Buenos Aires}
+%\newcommand{\yourweb}{https://www.abcd.com/}
+
+\newcommand{\statement}[1]{\par\medskip
+  \underline{\textcolor{blue}{\textbf{#1:}}}\space
+}
+
+\usepackage[
+  colorlinks,
+  breaklinks,
+  pdftitle={\yourname - \soptitle},
+  pdfauthor={\yourname},
+  unicode
+]{hyperref}
+
+
+\usepackage{color}
+\newcommand\redcomment[1]{\textcolor{red}{#1}}
+
+%\usepackage{cancel}
+\usepackage[normalem]{ulem}
+
+\begin{document}
+
+
+\begin{center}
+%\LARGE \yourname\\
+\LARGE \soptitle\\
+%\large of \yourname\ (ATPESC applicant for Summer---2018)
+
+
+\end{center}
+
+\hrule
+\vspace{1pt}
+\hrule height 1pt
+
+\bigskip
+
+
+\statement{Education}
+\begin{itemize}
+	\item 2013-present {\bf Ph.D. candidate in Biomedical Engineering}\\
+University of Buenos Aires, Faculty of Engineering (Argentina)
+\begin{itemize}
+	\item \textbf{Biologically inspired modelling} for \textbf{early language acquisition} phenomena explanation
+	\item Thesis title: \textbf{Phonetic Acquisition in Cortical Dynamics, a Computational Approach}
+	\item \textbf{High Performance Computing (HPC)} for science. Project running on Cooley resource at Argonne Leadership Computing Facility (ALCF) Allocation.
+\end{itemize}
+
+
+\item 1999--2012 {\bf BS in Electronic Engineering}\\
+Universidad Tecnol\'ogica Nacional, Facultad Regional Mendoza (Argentina)
+\begin{itemize}
+	\item Senior Thesis: \textbf{Kalman Filter Implementation in FPGA}, Reconfigurable Computation Laboratory
+\end{itemize}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\statement{Specialization Courses}
+\begin{itemize}
+	\item 2018 {\bf Argonne Training Program on Extreme Scale Computing (ATPESC).}\\
+St. Charles, Illinois, USA\\
+Organized by Argonne National Laboratory, Lemont, IL, USA\\
+ATPESC provides intensive, two-week training on the key skills, approaches, and tools to design, implement, and execute computational science and engineering applications on current high-end computing systems and the leadership-class computing systems of the future.\\
+Hours: 100.\\
+Final Exam Approved.
+
+	\item 2018 {\bf Computational Theories of Learning}\\
+Instituto de Biología y Medicina Experimental (CONICET-IBYME), CABA, Argentina\\
+Hours: 36.\\
+Final Exam Approved.
+
+	\item 2018 {\bf Adaptive Systems: Neural Networks}\\
+Facultad de Ingeniería, Universidad de Buenos Aires, CABA, Argentina\\
+Main book: {\it Introduction To The Theory Of Neural Computation} (Santa Fe Institute Series) 1st Edition by John A. Hertz, Anders S. Krogh and Richard G. Palmer.\\
+Hours: 96.\\
+Grade: 10.
+
+	\item 2018 {\bf Detection and Estimation Theory}\\
+Facultad de Ingeniería, Universidad de Buenos Aires, CABA, Argentina\\
+Main book: {\it Pattern Classification and Scene Analysis} by R. O. Duda and P. E. Hart, Wiley, 1st. edition 1973, 2nd. edition 2001.\\
+Hours: 90.\\
+Grade: 10.
+
+	\item 2014 {\bf Real Analysis II}\\
+Facultad de Ciencias Exactas y Naturales, Universidad Nacional de Cuyo, Mendoza, Argentina\\
+Main book: {\it Principles of Mathematical Analysis} by Walter Rudin\\
+Hours: 128.\\
+Grade: 9.
+
+	\item 2014 {\bf Real Analysis I}\\
+Facultad de Ciencias Exactas y Naturales, Universidad Nacional de Cuyo, Mendoza, Argentina\\
+Main book: {\it Principles of Mathematical Analysis} by Walter Rudin\\
+Hours: 128.\\
+Grade: 10.
+\pagebreak
+	\item 2013 {\bf Experimental Psychology and Neurobiology of Language}\\
+Instituto de Ciencias Humanas, Sociales y Ambientales (INCIHUSA) CCT CONICET, Mendoza, Argentina\\
+Possible evolutionary origins of Language, Language acquisition, Neuroscience of Language, Aphasias, Evaluation of Language, Genetics of Language\\ 
+{\it Psicolog\'ia Experimental y Neurobiolog\'ia del lenguaje}\\
+Hours: 30.\\
+Grade: 10.
+
+	\item 2011 {\bf Didactic of Mathematics}\\
+Universidad Tecnol\'ogica Nacional, Mendoza, Argentina\\
+{\it Did\'actica de la Matem\'atica}\\
+Hours: 30.
+
+\end{itemize}
+ 
+
+
+
+
+
+
+
+
+
+\statement{Professional Practices}
+\begin{itemize}
+	\item 2012-2013 {\bf Reconfigurable Computation Laboratory}\\
+Universidad Tecnol\'ogica Nacional, Facultad Regional Mendoza (Argentina)
+\begin{itemize}
+	\item Kalman Filter Numeric Tests in Matlab.
+	\item Resource and delay efficient matrix multiplication algorithms. Implementation in VHDL.
+\end{itemize}
+\end{itemize}
+
+ 
+
+
+
+
+\statement{Publications}
+\begin{itemize}
+	\item Dario Dematties, Silvio Rizzi, George~K. Thiruvathukal, Alejandro Wainselboim,
+  and Silvano Zanutto.
+\newblock {\em Phonetic Acquisition in Cortical Dynamics, a Computational
+  Approach}.
+\newblock PLOS ONE Submitted Article waiting review process, 2018.
+	\item Dario Dematties and Francisco Iglesias.
+\newblock {\em Kalman Filter Implementation on FPGA}.
+\newblock Universidad Tecnologica Nacional, 2012.
+\end{itemize}
+
+
+
+\statement{Skills}
+
+\begin{itemize}
+
+	\item {\bf Message Passing Interface (MPI) and Shared Memory Multi-Processing Application Programming Interface (OpenMP).}\\
+As a Ph.D. student, \textbf{MPI+OpenMP} hybrid implementations running on \textbf{Cooley cluster} at \textbf{Argonne Leadership Computing Facility}.
+Strong and weak scaling tests with simulations of up to \textbf{64 nodes (one MPI rank per node)} with
+\textbf{12 threads} running in \textbf{each node (OpenMP)}.
+	
+	\item {\bf General-Purpose Programming Languages.}
+	\begin{itemize}
+		\item \textbf{C}, \textbf{\CC11} and \textbf{\CC14} \textbf{Standard Template Libraries}.
+		\item \textbf{Python} Interpreted high-level programming language.
+		\item \textbf{MPI for Python} Distributed Memory Parallel Audio Files Generation by means of Speech Synthesizer.
+		\item \textbf{Object Oriented Programming}: Inheritance, composition and polymorphism.
+	\end{itemize}
+
+	\item \textbf{Interpreted numerical computing languages}
+\textbf{GNU Octave} and \textbf{Matlab}.
+In fact, I know the internal file format specification of those languages
+since I had to implement my own libraries for my Ph.D. project.
+
+	\item {\bf Natural Language Processing (NLP).}\\
+n-gram models for words frequency estimation
+under maximum-likelihood, Laplace, Lidstone, Jeffreys-Perks
+and Good-Turing hypotheses.
+Testing by means of held-out estimation and cross validation.
+
+	\item {\bf Detection and Estimation Theory.}\\
+non-parametric algorithms for the estimation of random distributions
+by means of Parzen, k-Nearest Neighborhood
+and The Nearest Neighbor algorithms.
+Dirichlet Distribution and Dirichlet Process
+(Clustering of a mixture of Gaussians).
+Suppor Vector Machine classification.
+
+	\item {\bf Artificial Neural Networks.}\\
+Hopfield Networks, simple and multilayer Perceptrons (Backpropagation).
+Self Organizing Maps unsupervised clustering. Growing Neural Gas unsupervised clustering.
+
+	\item {\bf Version control systems and Web-based Git repository.}\\
+\textbf{GIT} and \textbf{Apache Subversion (svn)}.
+\textbf{GitLab} and \textbf{GitHub}.
+
+	\item {\bf Debugging and Profiling.}\\
+\textbf{GNU (GDB) and Arm DDT Debuggers}.\\
+For \textbf{profiling} purposes,
+\textbf{ARM Forge Map}, \textbf{Valgrind} and \textbf{Kcachegrind}.
+
+	\item {\bf Hardware Description Language.}\\
+In the world of \textbf{Hardware Description Language (VHDL)},
+I implemented an instance of the \textbf{Kalman Filter in a FPGA device}
+for my Bachelor Degree thesis.
+	
+	\item {\bf Inter-process and Network communication socket.}\\
+Unix domain socket \textbf{(POSIX socket)} and \textbf{POSIX threads (pthread)} with the implementation of a HTTP server as
+a project for a subject at university.
+
+	\item {\bf PIC Microcontrolers, Symbolic Computation, Unix Like Environment, Document Preparation System.}
+	\begin{itemize}
+		\item Assembler for \textbf{PIC microcontrollers}
+		\item Symbolic Computation in \textbf{wxMaxima} and \textbf{Wolfram Mathematica}.
+		\item I feel comfortable in the \textbf{Unix like environment}. In fact, I use and administrate
+		my Desktop and Laptop with Linux and now I am using \textbf{RHEL distribution} on
+		\textbf{Cooley nodes at Argonne}.
+		\item \LaTeX, Beamer.
+		\item I also use \textbf{Vim} as my \textbf{default text editor program}
+		not only because it is efficient, but also because it allows me to devote my complete
+		attention to the algorithmic implementation putting the text edition
+		in background.
+	\end{itemize}
+	
+\end{itemize}
+
+\statement{Awards}
+\begin{itemize}
+	\item 2013 \textbf{Special Mention in \textit{Concurso de Preingenier\'ia 2013} (Argentina)}.\\
+With the work entitled: Kalman Filter Implementation in FPGA.
+{\it Implementaci\'on de filtro de Kalman en FPGA}
+\end{itemize}
+ 
+
+
+
+
+\statement{Scholarships}
+
+\begin{itemize}
+	\item 2013 \textbf{UBACYT 2013}. Ph.D. Funding. Universidad de Buenos Aires. (Argentina)
+	\item 2012 \textbf{Research Scholarship}. Electronic Instrumentation.
+		Nanotechnology Laboratory at Universidad Tecnol\'ogica Nacional Facultad Regional Mendoza. (Argentina)
+\end{itemize}
+ 
+
+
+
+
+
+
+
+
+
+
+\statement{Participation in congresses, conferences and symposia}
+\begin{itemize}
+	\item 2018 {\bf XVI Argentinian Society of Linguistic Studies} \emph{Sociedad Argentina de Estudios Lingüísticos (SAEL)}\\
+{Escuela de Humanidades de la Universidad Nacional de San Mart\'in, Buenos Aires, Argentina}\\
+Presentation.\\
+\textbf{Conference Speaker}.\\
+Title: A biologically Plausible Computational Model for Phonetic Classification\\
+{\it The role of the predictability during language processing}\\
+Year: 2018.\\
+	\item 2015 {\bf IV Biomedical Engineering Days}\\
+Facultad de Ingenier\'ia de la Universidad de Buenos Aires, Buenos Aires, Argentina\\
+{\it IV Jornadas de Ingenier\'ia Biom\'edica}\\
+\textbf{Symposia, Poster Presentation}.\\
+\textbf{Conference Speaker}.\\
+Title: Neurocomputational Theories for the Study of Grammar Acquisition from the Learning of Categories\\
+{\it Teor\'ias Neurocomputacionales para el Estudio de la Adquisici\'on de Gram\'atica a partir del Aprendizaje de Categor\'ias}\\
+Year: 2015.\\
+\pagebreak
+	\item 2015 {\bf Neurocog 2015}\\
+Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires, Buenos Aires, Argentina\\
+Title: Development of a Computational Neural Network Model for Language Acquisition\\
+{\it Desarrollo de un modelo computacional de redes neuronales para la adquisici\'on del lenguaje}\\
+\textbf{Symposia, Poster Presentation}.\\
+Year: 2015.\\
+
+\end{itemize}
+ 
+
+
+
+
+
+
+
+\statement{Graduate Teaching Experience}
+\begin{itemize}
+	\item 2016 {\bf Associate Professor}\\
+Linguistics and Experimental Neurobiology of Language INCIHUSA, CCT Mendoza, Argentina\\
+Exposed topics: \textbf{Hierarchical Temporal Memory, Cortical Learning Algorithm, Sparse Distributed Representations, Semantic Folding Theory}.\\
+Tittle: From infant brain to adult brain: cognition development based on concepts from a cognition based on details.
+{\it Del cerebro infantil al cerebro adulto: desarrollo de la cognici\'on basada en conceptos desde una cognici\'on basada en detalles}.
+	\item 2015 {\bf Associate Professor}\\
+Linguistics and Experimental Neurobiology of Language INCIHUSA, CCT Mendoza, Argentina\\
+Exposed topics: \textbf{Memory Prediction Framework, Hierarchical Temporal Memory,
+Modeling children's early grammatical knowledge with Bayesian Processes}.\\
+Tittle: Neurobiological and Computational Foundations of Cognition and Language.
+{\it Fundamentos neurobiol\'ogicos y computacionales de la cognici\'on y el lenguaje}.
+\end{itemize}
+ 
+
+
+
+
+
+\statement{Undergraduate Teaching Experience}
+\begin{itemize}
+	\item 2013-2013 {\bf University teacher/assistant in charge of assignments}\\
+Universidad Ju\'an Agust\'in Maza, Mendoza, Argentina\\
+Subject: \textbf{Mathematical Analysis II}.
+
+	\item 2013-2013 {\bf University First Assistant}\\
+Universidad Tecnol\'ogica Nacional, Facultad Reginoal Mendoza, Argentina\\
+Subject: \textbf{Signals and Systems Analysis}.
+
+	\item 2013-2013 {\bf University First Assistant}\\
+Universidad Tecnol\'ogica Nacional, Facultad Reginoal Mendoza, Argentina\\
+Subject: \textbf{Mathematical Analysis II}.
+
+	\item 2012-2013 {\bf University Second Assistant}\\
+Universidad Tecnol\'ogica Nacional, Facultad Reginoal Mendoza, Argentina\\
+Subject: \textbf{Signals and Systems Analysis}.
+
+	\item 2012-2013 {\bf University Tutor}\\
+Universidad Tecnol\'ogica Nacional, Facultad Reginoal Mendoza, Argentina\\
+Subject: \textbf{Signals and Systems Analysis}.
+
+	\item 2011-2013 {\bf University Second Assistant.}\\
+Universidad Tecnol\'ogica Nacional, Facultad Reginoal Mendoza, Argentina\\
+Subject: \textbf{Mathematical Analysis II}.
+
+	\item 2007-2013 {\bf University Tutor.}\\
+Universidad Tecnol\'ogica Nacional, Facultad Reginoal Mendoza, Argentina\\
+Subject: \textbf{Mathematical Analysis II}.
+
+\end{itemize}
+ 
+\newpage
+
+
+\section*{Personal Statement}
+\subsection*{Research Interests}
+\begin{itemize}
+	\item I am interested in neuroanatomical and physiological features in mammalian cortical tissue that could leverage phonetic perception invariance and generalization in biologically inspired computational models.
+
+	\item The model our group elaborated is called Cortical Spectro-Temporal Model (CSTM) and incorporates cortical neurophysilogical features, such as Columnar Organization and Sparse Distributed Representations (SDRs)--among others. SDRs have extraordinary mathematical properties which give them high noise rejection and fault tolerance. Those are typical characteristics in cortical tissue where individual cells are far from 100\% reliable and they die and regenerate continuously. According to recent findings in neuroscience, the brain uses SDRs to process information. This is true for all mammals, from mice to humans.
+
+	\item The CSTM is completely unsupervised and returns phonetic features that improve the classification accuracy levels of the Support Vector Machine (SVM) algorithm in word classification tasks. This improvement is achieved in the presence of certain disturbances such as white noise and reverberation and under pitch variation conditions.
+
+	\item The algorithms in the CSTM are written in C++14. They consist of a set of classes interrelated by inheritance and composition. The classes are parallelized by means of MPI+OpenMP. This implementation stores its outputs in Matlab and Octave file formats and uses MPI parallel I/O file systems.
+
+	\item We tested our MPI+OpenMP hybrid implementation on Cooley nodes--Argonne Leadership Computing Facility (ALCF). We scaled the CSTM on up to 64 nodes with 8 OpenMP threads each, running models of up to 16384 cortical columns (a total of 3686400 neural units and 1706803200 synapses).
+
+	\item Our group submitted a manuscript to Plos One with invariant phonetic word classification science results computed on Cooley. This is still under peer review process. We are writing a second manuscript that shows computational profiling performance observing how our model scales in the nodes of Cooley in terms of its parallel efficiency.
+\end{itemize}
+
+
+\subsection*{Research Plans}
+\begin{itemize}
+	\item My next goal is to run this project on a leadership class machine such as Theta at ALCF. With such resources, we will be able to test model instances which differ by orders of magnitude with respect to the models we are able to test now. Emergent properties could arise from instances in which not only the number of neurons, but also its dimensionality at columnar and cortical level will be modified. Those changes could result in unforeseen behaviours in terms of phonetic feature abstraction and invariance. My participation in ATPESC 2018 gave me the needed skills in order to take the best advantage from such resources.
+
+	\item I am planning to apply reinforcement learning techniques such as Temporal Difference (TD) learning in order to leverage the word classification invariance and generalization performance of our model.
+
+	\item Further in the future, as a postdoctoral project, I am planning to investigate the use of Biologically-inspired natural language understanding techniques such as Semantic Folding Theory by Cortical.io (Francisco De Sousa Webber) (https://www.cortical.io/) which uses Sparse Distributed Representations (SDRs) as semantic fingerprints. I am interested in incorporating grammatical knowledge to such representations using knowledge representations such as Head Driven Phrase Structure Grammar. In fact, our computational approach uses SDRs in order to process information and introduces sequence learning capabilities with a structure of cortical columnar organization which could be tested for semantic clustering in future applications.
+\end{itemize}
+
+\subsection*{Reasons for Wishing to Participate}
+\begin{itemize}
+	\item The current machine learning (ML) revolution inflicts a highly dynamical landscape which imposes a continual updating from a scientific community that is even beyond ML and AI in itself. Therefore I am really keen on learning the most advanced features in more biologically inspired computational models that could leverage current deep learning techniques.
+
+	\item Human language is a characteristic that strongly distinguish our specie from others, specially in regards to highly abstract semantic reasoning. I am eager to learn more about the lattest advancements in Text Embeddings techniques such as Word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning) to generate semantic clustering.
+
+	\item After participating in this workshop I will be in ideal conditions to complete experiments and publish results of my PhD dissertation. My next step will be a Postdoctoral position to further my research in Biologically Inspired ML and Neuromorphic processing. I am truly interested in pursuing a career in Academia and to apply for a position as an Assistant Researcher at the National Council of Science and Technology (CONICET) in Argentina. Attending Scientific Machine Learning at the ICERM will undoubtedly increase my chances of success in these early stages of my career.
+\end{itemize}
+
+\subsection*{Additional Remarks}
+\begin{itemize}
+	\item I have a genuine interest in neuromorphic processors. My Ph.D. project is intimately related to finding neurophysiological features in cortical tissue which show to be relevant for information processing and, in such case, could be relevant for future neuromorphic processor designs.
+
+	\item All the information about our project is openly available on a GitLab repository at Argonne National Laboratory: https://xgitlab.cels.anl.gov/srizzi/neurophon/.
+\end{itemize}
+
+
+
+
+
+
+
+\end{document}

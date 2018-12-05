@@ -1,0 +1,12 @@
+# Ignore output files from latex
+
+*.aux
+*.bbl
+*.blg
+*.glo
+*.xdy
+*.log
+ICERM_Application.pdf
+*.swp
+*.out
+*.odg
