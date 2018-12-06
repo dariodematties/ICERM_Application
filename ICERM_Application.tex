@@ -20,11 +20,13 @@
   %\textcolor{blue}{\youremail}}
 
 \newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.3ex}{\bf +}\nolinebreak\hspace{-.10em}\raisebox{.3ex}{\bf +}}
-\newcommand{\soptitle}{Scientific Machine Learning Jan 28 - 30, 2019-Curriculum Vitae}
-\newcommand{\yourname}{Dario Dematties}
+\newcommand{\soptitle}{Dario Dematties Curriculum Vitae}
+\newcommand{\yourname}{Dario Dematties Application to}
 %\newcommand{\youremail}{dariodematties@yahoo.com.ar}
-\newcommand{\jobtitle}{Ph.D. candidate}
-\newcommand{\institution}{Faculty of Engineering, University of Buenos Aires}
+\newcommand{\jobtitle}{ICERM}
+%\newcommand{\jobtitle}{Ph.D. candidate}
+\newcommand{\institution}{Scientific Machine Learning Jan 28 - 30, 2019}
+%\newcommand{\institution}{Faculty of Engineering, University of Buenos Aires}
 %\newcommand{\yourweb}{https://www.abcd.com/}
 
 \newcommand{\statement}[1]{\par\medskip
@@ -379,45 +381,39 @@ Subject: \textbf{Mathematical Analysis II}.
 
 \section*{Personal Statement}
 \subsection*{Research Interests}
-\begin{itemize}
-	\item I am interested in neuroanatomical and physiological features in mammalian cortical tissue that could leverage phonetic perception invariance and generalization in biologically inspired computational models.
 
-	\item The model our group elaborated is called Cortical Spectro-Temporal Model (CSTM) and incorporates cortical neurophysilogical features, such as Columnar Organization and Sparse Distributed Representations (SDRs)--among others. SDRs have extraordinary mathematical properties which give them high noise rejection and fault tolerance. Those are typical characteristics in cortical tissue where individual cells are far from 100\% reliable and they die and regenerate continuously. According to recent findings in neuroscience, the brain uses SDRs to process information. This is true for all mammals, from mice to humans.
+As a Ph.D. student at the Institute of Biomedical Engineering, I try to identify neuroanatomical and physiological features in mammalian cortical tissue that could leverage phonetic perception invariance and generalization in biologically inspired computational models. My computational approach is completely unsupervised and incorporates key nerophysiological and anatomical properties that exist in brain cortex. I run my model on Cooley nodes (a visualization and analysis cluster at Argonne National Laboratory). During the last months my main activity has been related to High Performance Computing and to run profiling test of my computational approach on Cooley (Argonne Leadership Computing Facility (ALCF) Allocation). As a derivation of that, I was selected from a pool of more than a hundred applicants after a review process to attend the Argonne Training Program on Extreme Scale Computing (ATPESC) which was held in St. Charles, IL, USA. In such program I received key skills, approaches, and tools necessary to design, implement, and execute Computational Science and Engineering applications on current high-end systems and the Leadership-Class systems expected to be available in 2019 and beyond. As a result, I have been able to implement my biologically plausible computational approach on Cooley nodes focussing on an eventual migration to a leadership supercomputer as Theta at Argonne.
 
-	\item The CSTM is completely unsupervised and returns phonetic features that improve the classification accuracy levels of the Support Vector Machine (SVM) algorithm in word classification tasks. This improvement is achieved in the presence of certain disturbances such as white noise and reverberation and under pitch variation conditions.
+The model our group elaborated is called Cortical Spectro-Temporal Model (CSTM) and incorporates cortical neurophysilogical features, such as Columnar Organization and Sparse Distributed Representations (SDRs)--among others. SDRs have extraordinary mathematical properties which give them high noise rejection and fault tolerance. Those are typical characteristics in cortical tissue where individual cells are far from 100\% reliable and they die and regenerate continuously. According to recent findings in neuroscience, the brain uses SDRs to process information. This is true for all mammals, from mice to humans.
 
-	\item The algorithms in the CSTM are written in C++14. They consist of a set of classes interrelated by inheritance and composition. The classes are parallelized by means of MPI+OpenMP. This implementation stores its outputs in Matlab and Octave file formats and uses MPI parallel I/O file systems.
+The CSTM is completely unsupervised and returns phonetic features that improve the classification accuracy levels of the Support Vector Machine (SVM) algorithm in word classification tasks. This improvement is achieved in the presence of certain disturbances such as white noise and reverberation and under pitch variation conditions.
 
-	\item We tested our MPI+OpenMP hybrid implementation on Cooley nodes--Argonne Leadership Computing Facility (ALCF). We scaled the CSTM on up to 64 nodes with 8 OpenMP threads each, running models of up to 16384 cortical columns (a total of 3686400 neural units and 1706803200 synapses).
+The algorithms in the CSTM are written in C++14. They consist of a set of classes interrelated by inheritance and composition. The classes are parallelized by means of MPI+OpenMP. This implementation stores its outputs in Matlab and Octave file formats and uses MPI parallel I/O file systems.
 
-	\item Our group submitted a manuscript to Plos One with invariant phonetic word classification science results computed on Cooley. This is still under peer review process. We are writing a second manuscript that shows computational profiling performance observing how our model scales in the nodes of Cooley in terms of its parallel efficiency.
-\end{itemize}
+We tested our MPI+OpenMP hybrid implementation on Cooley nodes and scaled the model on up to 64 nodes with 8 OpenMP threads each, running models of up to 16384 cortical columns (a total of 3686400 neural units and 1706803200 synapses).
+
+Our group submitted a manuscript to Plos One with invariant phonetic word classification science results computed on Cooley. This is still under peer review process. We are writing a second manuscript that shows computational profiling performance observing how our model scales in the nodes of Cooley in terms of its parallel efficiency.
 
 
 \subsection*{Research Plans}
-\begin{itemize}
-	\item My next goal is to run this project on a leadership class machine such as Theta at ALCF. With such resources, we will be able to test model instances which differ by orders of magnitude with respect to the models we are able to test now. Emergent properties could arise from instances in which not only the number of neurons, but also its dimensionality at columnar and cortical level will be modified. Those changes could result in unforeseen behaviours in terms of phonetic feature abstraction and invariance. My participation in ATPESC 2018 gave me the needed skills in order to take the best advantage from such resources.
 
-	\item I am planning to apply reinforcement learning techniques such as Temporal Difference (TD) learning in order to leverage the word classification invariance and generalization performance of our model.
+My next goal is to run this project on a leadership class machine such as Theta at ALCF. With such resources, our group will be able to test model instances which differ by orders of magnitude with respect to the models we are able to test now. Emergent properties could arise from instances in which not only the number of neurons, but also its dimensionality at columnar and cortical level will be modified. Those changes could result in unforeseen behaviours in terms of phonetic feature abstraction and invariance. My participation in ATPESC 2018 gave me the needed skills in order to take the best advantage from such resources.
 
-	\item Further in the future, as a postdoctoral project, I am planning to investigate the use of Biologically-inspired natural language understanding techniques such as Semantic Folding Theory by Cortical.io (Francisco De Sousa Webber) (https://www.cortical.io/) which uses Sparse Distributed Representations (SDRs) as semantic fingerprints. I am interested in incorporating grammatical knowledge to such representations using knowledge representations such as Head Driven Phrase Structure Grammar. In fact, our computational approach uses SDRs in order to process information and introduces sequence learning capabilities with a structure of cortical columnar organization which could be tested for semantic clustering in future applications.
-\end{itemize}
+I am planning to apply reinforcement learning techniques such as Temporal Difference (TD) learning in order to leverage the word classification invariance and generalization performance of our model.
+
+Further in the future, as a postdoctoral project, I am planning to investigate the use of Biologically-inspired natural language understanding techniques such as Semantic Folding Theory by Cortical.io (Francisco De Sousa Webber) (https://www.cortical.io/) which uses Sparse Distributed Representations (SDRs) as semantic fingerprints. I am interested in incorporating grammatical knowledge to such representations using knowledge representations such as Head Driven Phrase Structure Grammar. In fact, our computational approach uses SDRs in order to process information and introduces sequence learning capabilities with a structure of cortical columnar organization which could be tested for semantic clustering in future applications.
 
 \subsection*{Reasons for Wishing to Participate}
-\begin{itemize}
-	\item The current machine learning (ML) revolution inflicts a highly dynamical landscape which imposes a continual updating from a scientific community that is even beyond ML and AI in itself. Therefore I am really keen on learning the most advanced features in more biologically inspired computational models that could leverage current deep learning techniques.
+The current machine learning (ML) revolution inflicts a highly dynamical landscape which imposes a continual updating from a scientific community that is even beyond ML and AI in itself. On the other hand, neuroscience community has made an outstanding progress in the last decades providing us with a level of knowledge about the brain that nobody had before. Nevertheless, ML and AI mainstreams seem to ignore great part of that knowledge. This could be attributed in part to the success accomplished by some AI approaches–such as Deep Convolutional Neural Networks–which while ignoring biology have achieved classification accuracy levels without precedent in the last years. Beyond that, some researchers from AI community support the idea that in order to overcome current AI limitations and to get really intelligent machines it will be necessary to observe more the brain. I endorse such idea identifying neuroanatomical and physiological cortical mammalian features that could leverage phonetic perception invariance and generalization in biologically inspired computational models. As a result of that, I am really keen on learning the most advanced features in more biologically inspired computational models that could leverage current deep learning techniques.
 
-	\item Human language is a characteristic that strongly distinguish our specie from others, specially in regards to highly abstract semantic reasoning. I am eager to learn more about the lattest advancements in Text Embeddings techniques such as Word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning) to generate semantic clustering.
+Human language is a characteristic that strongly distinguish our specie from others, specially in regards to highly abstract semantic reasoning. I am eager to learn more about the lattest advancements in Text Embeddings techniques such as Word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning) to generate semantic clustering and to analyze more biologically inspired implementations of those.
 
-	\item After participating in this workshop I will be in ideal conditions to complete experiments and publish results of my PhD dissertation. My next step will be a Postdoctoral position to further my research in Biologically Inspired ML and Neuromorphic processing. I am truly interested in pursuing a career in Academia and to apply for a position as an Assistant Researcher at the National Council of Science and Technology (CONICET) in Argentina. Attending Scientific Machine Learning at the ICERM will undoubtedly increase my chances of success in these early stages of my career.
-\end{itemize}
+Participating in this workshop will undoubtedly contribute to my background in order to be in ideal conditions to complete experiments and publish results of my PhD dissertation. My next step will be a Postdoctoral position to further my research in Biologically Inspired ML, AI and Neuromorphic processing. I am truly interested in pursuing a career in Academia and to apply for a position as an Assistant Researcher at the National Council of Science and Technology (CONICET) in Argentina. Attending Scientific Machine Learning at the ICERM will considerably increase my chances of success in these early stages of my career.
 
 \subsection*{Additional Remarks}
-\begin{itemize}
-	\item I have a genuine interest in neuromorphic processors. My Ph.D. project is intimately related to finding neurophysiological features in cortical tissue which show to be relevant for information processing and, in such case, could be relevant for future neuromorphic processor designs.
+I have a genuine interest in neuromorphic processors. My Ph.D. project is intimately related to finding neurophysiological features in cortical tissue which show to be relevant for information processing and, in such case, could be relevant for future neuromorphic processor designs.
 
-	\item All the information about our project is openly available on a GitLab repository at Argonne National Laboratory: https://xgitlab.cels.anl.gov/srizzi/neurophon/.
-\end{itemize}
+All the information about our project is openly available on a GitLab repository at Argonne National Laboratory: https://xgitlab.cels.anl.gov/srizzi/neurophon/.
 
 
 
